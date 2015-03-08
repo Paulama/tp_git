@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans_regular_macroman\OpenSans-Regular-webfont.eot');
+    src: url('opensans_regular_macroman\OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans_regular_macroman\OpenSans-Regular-webfont.woff') format('woff'),
+         url('opensans_regular_macroman\OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('opensans_regular_macroman\OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family: Arial, Times New Roman;
+}
+
+@media screen and (max-width: 900px)
+{
+	body
+	{
+		background-image: url("../images/fond.jpg");
+	}
+}
+
+header 
+{
+	text-align: center;
+	width:90%;
+	position: relative;
+	border-bottom: 2px solid black;
+	display: inline-block;
+}
+
+@media screen and (max-width: 900px)
+{
+	header
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	header
+	{
+		width: 100%;
+		font-size: 0.8em;
+	}
+}
+
+
+section
+{
+	display: inline-block;
+	padding-left: 10px;
+	width: 30%;
+	vertical-align: top;
+	
+}
+
+@media screen and (max-width: 900px)
+{
+	section
+	{
+		display: block;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	section
+	{
+		display: block;
+		width: 100%;
+		font-size: 0.8em;
+	}
+}
+
+section ul
+{
+	margin-left: 20px;
+}
+
+h2
+{
+	color: rgb(96, 100, 249);
+	text-decoration: underline; 
+	text-align: center;
+}
+
+span
+{
+	font-weight: bold;
+}
+
+#global
+{
+	width:100%;
+	height: 500px;	
+	background-image: url("../images/fond.jpg");
+	margin: 0px;
+	padding: 0px;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+
+#contenu
+{
+	display: inline-block;
+	font-family: 'open_sansregular';
+	width: 90%;
+}
+
+@media screen and (max-width: 900px)
+{
+	#contenu
+	{
+		display: block;
+		width: 100%;
+	}
+}
+
+#liseret
+{
+	display: inline-block;
+	float:left;
+	height: 500px;
+	width: 10%;
+	overflow: hidden;
+	border-radius: 10px 0px 0px 10px;
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 900px)
+{
+	#liseret
+	{
+		display: none;
+	}
+}
+
+.photomoa
+{
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px black;
+	position: absolute;
+	display: inline-block;
+	right: 20px;
+	top: 10px;
+	
+	
+}
+
+
+
+
+
+
